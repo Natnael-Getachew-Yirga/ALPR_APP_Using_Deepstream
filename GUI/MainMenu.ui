@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1175</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1210</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color: qlineargradient(spread:repeat, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(27, 39, 50, 255),stop:1 rgba(47, 53, 74, 255));
+	color: #000000;
+background-repeat: no-repeat; 
+background-position: center;}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>442</x>
+      <y>80</y>
+      <width>321</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 39pt &quot;URW Bookman L&quot;;
+color:rgb(238, 238, 236)
+</string>
+    </property>
+    <property name="text">
+     <string>Main Menu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="insert">
+    <property name="geometry">
+     <rect>
+      <x>412</x>
+      <y>230</y>
+      <width>361</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 203);
+font: 75 25pt &quot;URW Bookman L&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Insert Data</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="search">
+    <property name="geometry">
+     <rect>
+      <x>412</x>
+      <y>340</y>
+      <width>361</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 203);
+font: 75 25pt &quot;URW Bookman L&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Show Data</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ALPR">
+    <property name="geometry">
+     <rect>
+      <x>412</x>
+      <y>450</y>
+      <width>361</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 203);
+font: 75 25pt &quot;URW Bookman L&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>ALPR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 203);
+font: 75 25pt &quot;URW Bookman L&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
