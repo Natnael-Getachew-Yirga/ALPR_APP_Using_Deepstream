@@ -161,12 +161,11 @@ To run the app on docker container refer about Deepstream docker_containers from
 
 The username and password for the login age are "nerd" and "123456" respectively
 ## DEMO
-<p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Wiu7k70ORow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </p>
+#
 
+[![Watch the video](https://img.youtube.com/vi/Wiu7k70ORow/default.jpg)](https://youtu.be/Wiu7k70ORow)
 
-
+#
 
 
 
