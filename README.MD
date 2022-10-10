@@ -165,6 +165,7 @@ The username and password for the login age are "nerd" and "123456" respectively
  <figure class="video_container">
   <video controls="true" allowfullscreen="true" poster="demo1.png">
     <source src="Demo.mp4" type="video/mp4">
+    <source src="Demo.ogg" type="video/ogg">
 
   </video>
 </figure>
